@@ -9,7 +9,7 @@ global.owner = [
 ] // Put your number here
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
-global.APIs = { // API Prefix
+global.APIs = { # }// API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
   xteam: 'https://api.xteam.xyz',
@@ -40,8 +40,8 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = '@penta_bot'
-  var sticker_author = 'penta'
+  var sticker_name = '@Misaki_bot'
+  var sticker_author = 'Aii.Ganz'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
